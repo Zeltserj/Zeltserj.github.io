@@ -1,6 +1,5 @@
 const body = document.body
 let buttonList = document.querySelectorAll("button");
-let myHeading = document.querySelector('h1');
 let resultText = document.querySelector('p')
 
 console.log(buttonList)
@@ -8,8 +7,8 @@ console.log(buttonList)
 let result = 0;
 for (const b of buttonList){
   b.onclick = function() {
-  let first=0;
-  let second=0;
+  let first = 0;
+  let second = 0;
   if (b.id !== "clear"){
   first = Number(prompt('Please first number'));
   second = Number(prompt('Please second number'));
