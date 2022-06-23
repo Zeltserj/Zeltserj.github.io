@@ -7,5 +7,5 @@ console.log(selection)
 b.onclick = (event) => {
             event.preventDefault();
             // show the selected index
-            resultText.innerHTML = "For a "+ selection.value + " dish, please see go <a href='https://food.walla.co.il/item/3361666'>here</a>"
+            resultText.innerHTML = "<a href='https://food.walla.co.il/item/3361666'>Here</a> is a link to a "+ selection.value + " recipe"
         };
