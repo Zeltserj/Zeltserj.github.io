@@ -2,8 +2,8 @@ const body = document.body
 let b = document.querySelector("button");
 let resultText = document.querySelector('p');
 let selection = document.querySelector('#falvors');
-var link = "link"
-console.log(selection)
+var link = "link";
+console.log(selection);
 
 b.onclick = (event) => {
             event.preventDefault();
@@ -18,5 +18,5 @@ b.onclick = (event) => {
                 link = "https://nikib.co.il/main-course/casserole/38167/"
                 break;
             }
-            resultText.innerHTML = "<a href='+"link+"' target='_blank'>Here</a> is a link to a "+ selection.value + " recipe"
+            resultText.innerHTML = "<a href='"+link+"' target='_blank'>Here</a> is a link to a "+ selection.value + " recipe"
         };
