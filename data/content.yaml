@@ -1,0 +1,112 @@
+BasicInfo:
+  FirstName: Jonathan
+  LastName: Zeltser
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +972 522 899 644
+    - Icon: fas fa-envelope
+      Info: zeltserj@gmail.com
+    - Icon: fas fa-map-marker-alt
+      Info: Tel Aviv, Israel
+
+Experience:
+  - Employer: Meta Platforms Inc.
+    Place: Tel Aviv, Israel
+    Positions:
+      - Title: Production Engineer
+        Date: Apr 2021 - Present
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'Go', 'Kubernetes', 'AWS', 'Virtualization', 'C++', 'Producion Analysis', 'CI/CD']
+      - Title: Prodction Engineering Intern
+        Date: Mar 2019 - Jan 2020
+        Details:
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'Load Testing', 'AWS', 'Terraform', 'REST API', 'OOP']
+  - Employer: Another super cool company
+    Place: Lisbon, PT
+    Positions:
+      - Title: Flow Cytometry Resource Specialist
+        Date: Jan 2018 - Mar 2019
+        Details:
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: Institute of Neural Engineering
+    Place: Graz, AT
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: BSc & MSc in Biomedical Engineering and Biophysics
+    Place: University of Lisbon
+    Date: Sep 2012 - Nov 2017
+    Details: Specialised in data analysis
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - HTML (including Jinja)
+      - Javascript
+      - CSS
+      - SASS
+      - SQL
+      - C#
+      - Bash
+      - MATLAB
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Jenkins
+      - AWS
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: Portuguese
+    Level: Native
+  - Name: English
+    Level: C2
+  - Name: Spanish
+    Level: B1
+  - Name: German
+    Level: B1
+
+Diplomas:
+  - ISTQB Tester Certification (2019)
+  - English Cambridge CAE (2009)
+
+Interests:
+  - Bouldering
+  - Cooking
+  - Windsurfing
+  - Bossa Nova
+  - Design
+  - Languages
